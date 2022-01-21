@@ -19,7 +19,7 @@ define('DB_PREFIX','tc_');
 ///////////////////////////////////////其他设置///////////////////////////////////////
 //停用CSRF防御
 //说明在 http://git.oschina.net/kenvix/Tieba-Cloud-Sign/wikis/关于云签到CSRF防御
-define('ANTI_CSRF',true);
+define('ANTI_CSRF', false);
 
 //加密用盐，留空为不使用
 define('SYSTEM_SALT','');
